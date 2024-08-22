@@ -32,7 +32,8 @@
                 poppins: 'poppins',
               },
               backgroundImage: {
-                leaf1:"url('./images/leaf01.png')",
+                bannerBg:"url('./images/leaf01.png')",
+                
                 call_to_action: "url('./images/call.jpg')",
               },
             }
@@ -44,6 +45,7 @@
 <body class="font-poppins">
     <!-- header section -->
      <header>
+        <!-- nav -->
         <nav class="w-11/12 mx-auto">
             <div class="navbar  p-0 py-5">
                 <div class="navbar-start">
@@ -88,6 +90,25 @@
                 </div>
               </div>
         </nav>
+        <!-- banner -->
+         <section class="bg-bannerBg bg-no-repeat bg-right-bottom">
+            <div class="w-full h-full bg-body bg-opacity-90">
+<div class="lg:w-9/12 mx-auto py-20 items-center flex flex-col sm:flex-row space-x-4">
+<!-- image left -->
+ <div class="flex-1">
+    <img src="./images/bannerbg.png" alt="">
+ </div>
+<!-- text right -->
+ <div class="flex-1 sm:text-left text-center">
+    <h4 class="text-xl font-semibold my-5">Best Quality Products</h4>
+    <h1 class="text-4xl lg:text-6xl font-semibold leading-tight">Join The Organic Movement!</h1>
+    <p class="my-5 text-lg">The organic movement broadly refers to the organizations and individuals involved worldwide in the promotion of organic food and other organic products.</p>
+    <div class="flex sm:justify-start justify-center"><button class="flex bg-accent py-4 px-10 rounded-lg text-white gap-2 hover:bg-primary"><span><i class="fa-solid fa-cart-shopping"></i></span>  Shop now</button></div>
+ </div>
+</div>
+            </div>
+
+         </section>
      </header>
 
 
